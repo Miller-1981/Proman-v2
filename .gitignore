@@ -1,0 +1,4 @@
+Proman_V2/qa/
+.git_empty_backup_*/
+_tmp_proman_zips/
+*.zip
