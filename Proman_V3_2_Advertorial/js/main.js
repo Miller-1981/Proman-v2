@@ -49,7 +49,7 @@
 
   // Microsoft Clarity events
   function setupClarityEvents() {
-    var heroCta = document.querySelector(".hero [data-scroll-form]");
+    var heroCta = document.querySelector(".article-hero [data-scroll-form]");
 
     if (heroCta) {
       heroCta.addEventListener("click", function () {
