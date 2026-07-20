@@ -177,11 +177,6 @@
           <p class="overline">Next step</p>
           <h2>You've seen why the problem should not be ignored.</h2>
           <p>Now take the first step toward more comfortable nights and better daily confidence.</p>
-          <div class="decision-points" aria-label="Order advantages">
-            <span>Daily prostate support</span>
-            <span>Cash on delivery</span>
-            <span>Specialist confirms your order by phone</span>
-          </div>
         </div>
       </section>
 
@@ -191,31 +186,13 @@
             <p class="overline">Official order</p>
             <h2>Start supporting your prostate health today</h2>
             <p>Leave your details below. A specialist will call to confirm your order, answer your questions and arrange delivery.</p>
-            <dl class="order-facts">
-              <div>
-                <dt>Delivery</dt>
-                <dd>Available across Nigeria</dd>
-              </div>
-              <div>
-                <dt>Confirmation</dt>
-                <dd>Specialist calls by phone</dd>
-              </div>
-              <div>
-                <dt>Payment</dt>
-                <dd>Cash on delivery</dd>
-              </div>
-            </dl>
           </div>
 
           <div class="form-shell action__form">
-            <h3 class="form__title">Special Nigeria Offer</h3>
-            <p class="form__text">Available for a limited time while supplies last.</p>
-
-            <div class="form-product">
-              <picture>
-                <source srcset="assets/prod.webp" type="image/webp">
-                <img src="assets/prod.png" alt="Proman bottle" width="280" height="261" loading="lazy">
-              </picture>
+            <div class="order-trust-row" aria-label="Order trust">
+              <span>🚚 Delivery Across Nigeria</span>
+              <span>☎ Phone Confirmation</span>
+              <span>💵 Cash on Delivery</span>
             </div>
 
             <div class="prices" id="form__block">
@@ -226,13 +203,18 @@
               </div>
             </div>
 
+            <div class="form-product">
+              <picture>
+                <source srcset="assets/prod.webp" type="image/webp">
+                <img src="assets/prod.png" alt="Proman bottle" width="280" height="261" loading="lazy">
+              </picture>
+            </div>
+
             <form action="lemon.php" method="post" id="form" class="orderForm" onsubmit="lockform(this);">
               <div class="value-summary" aria-label="Proman order summary">
-                <span>Natural daily support for men 40+</span>
-                <span>Designed to support urinary comfort</span>
+                <span>Natural support for men 40+</span>
+                <span>Supports urinary comfort</span>
                 <span>Simple daily routine</span>
-                <span>Confidential order</span>
-                <span>Cash on delivery</span>
               </div>
               <div class="input-group tooltip-hide">
                 <input class="form__input" type="text" name="name" id="name2" placeholder="Enter your name" required value="">
@@ -242,15 +224,14 @@
                 <input class="form__input mob1 val2" type="tel" name="phone" id="phone2" placeholder="Enter your phone number" required maxlength="" minlength="" value="">
               </div>
               <button class="form__btn sub2" type="submit" name="button">Request My Order</button>
+              <div class="payment-reassurance">
+                <strong>🔒 No online payment.</strong>
+                <span>Pay only upon delivery.</span>
+              </div>
               <div class="phone-steps" aria-label="What happens after submitting">
                 <span><b>1</b> Submit your details</span>
                 <span><b>2</b> A specialist calls you</span>
                 <span><b>3</b> Delivery is arranged</span>
-              </div>
-              <div class="payment-reassurance">
-                <strong>No online payment required.</strong>
-                <span>Your details are confidential.</span>
-                <p>Nothing is charged online. You pay only when your order is delivered.</p>
               </div>
               <input name="country" type="hidden" value="NG">
               <input type="hidden" name="subid" value="">
@@ -262,11 +243,6 @@
               <input type="hidden" name="utm_medium" value="<?= $_GET['utm_medium'];?>">
               <input type="hidden" name="clickid" value="{subid}">
             </form>
-            <div class="post-form-trust" aria-label="Order trust">
-              <span>Secure Order</span>
-              <span>Private Information</span>
-              <span>Delivery Across Nigeria</span>
-            </div>
           </div>
         </div>
       </section>
