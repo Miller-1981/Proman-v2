@@ -518,7 +518,7 @@ blockquote {
 }
 
 .form-shell {
-  padding: 18px;
+  padding: 16px 18px;
   border: 1px solid rgba(220, 230, 236, 0.92);
   border-radius: var(--radius);
   background: var(--white);
@@ -528,7 +528,7 @@ blockquote {
 
 .order-card {
   display: grid;
-  gap: 10px;
+  gap: 9px;
   max-width: 640px;
   margin: 0 auto;
 }
@@ -561,11 +561,11 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6px 12px;
+  gap: 6px 13px;
   margin: 0;
   color: #31455a;
-  font-size: 11px;
-  font-weight: 800;
+  font-size: 12px;
+  font-weight: 900;
   line-height: 1.25;
   text-align: center;
 }
@@ -573,11 +573,11 @@ blockquote {
 .order-trust-row span {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
 }
 
 .form-product {
-  margin: 0;
+  margin: -4px 0 0;
 }
 
 .form-product img {
@@ -586,7 +586,7 @@ blockquote {
 
 .prices {
   display: grid;
-  gap: 6px;
+  gap: 4px;
   padding: 0;
   margin: 0;
   border-radius: var(--radius-sm);
@@ -612,7 +612,7 @@ blockquote {
 
 .current-offer {
   display: grid;
-  gap: 4px;
+  gap: 2px;
   color: var(--blue-950);
   text-align: center;
 }
@@ -634,12 +634,12 @@ blockquote {
 
 .orderForm {
   display: grid;
-  gap: 9px;
+  gap: 8px;
 }
 
 .value-summary {
   display: grid;
-  gap: 5px;
+  gap: 4px;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -664,8 +664,8 @@ blockquote {
 
 .form__input {
   width: 100%;
-  min-height: 54px;
-  padding: 15px 16px;
+  min-height: 49px;
+  padding: 13px 16px;
   border: 1px solid #cbd8e4;
   border-radius: var(--radius-sm);
   color: var(--ink);
@@ -687,7 +687,7 @@ blockquote {
 
 .form__btn {
   width: 100%;
-  min-height: 54px;
+  min-height: 61px;
   margin-top: 2px;
 }
 
@@ -914,8 +914,8 @@ details p {
   }
 
   .order-card {
-    gap: 8px;
-    padding: 16px;
+    gap: 7px;
+    padding: 14px 16px;
   }
 
   .order-copy h2 {
@@ -929,7 +929,7 @@ details p {
   }
 
   .form-product {
-    margin: -2px 0 0;
+    margin: -6px 0 0;
   }
 
   .form-product img {
@@ -937,7 +937,7 @@ details p {
   }
 
   .value-summary {
-    gap: 5px;
+    gap: 4px;
     padding: 0;
   }
 
@@ -945,16 +945,22 @@ details p {
     gap: 7px;
   }
 
-  .form__input,
+  .form__input {
+    min-height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   .form__btn {
-    min-height: 50px;
+    min-height: 58px;
   }
 
   .order-trust-row {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4px;
-    font-size: 8px;
+    font-size: 9px;
+    font-weight: 900;
   }
 
   .order-trust-row span {
