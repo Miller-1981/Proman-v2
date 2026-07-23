@@ -269,6 +269,7 @@ a {
 }
 
 .article-section,
+.familiarity-strip,
 .ingredients-section,
 .timeline-section,
 .comments-section,
@@ -279,6 +280,7 @@ a {
 }
 
 .article-section h2,
+.familiarity-strip h2,
 .story-band h2,
 .product-reveal h2,
 .ingredients-section h2,
@@ -320,10 +322,64 @@ a {
   color: #fff;
 }
 
+.familiarity-strip {
+  background: #f8fafc;
+}
+
+.familiarity-strip h2 {
+  margin-bottom: 18px;
+}
+
+.familiarity-strip ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.familiarity-strip li {
+  position: relative;
+  padding: 12px 14px 12px 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--navy);
+  box-shadow: 0 8px 20px rgba(16, 37, 63, 0.06);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.familiarity-strip li::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 15px;
+  width: 15px;
+  height: 8px;
+  border-left: 3px solid var(--green);
+  border-bottom: 3px solid var(--green);
+  transform: rotate(-45deg);
+}
+
 .doctor-note,
 .pullquote,
-.payment-reassurance {
+.payment-reassurance,
+.patient-story,
+.post-form-quote {
   border-radius: 8px;
+}
+
+.patient-story {
+  margin: 22px 0;
+  padding: 18px;
+  background: var(--warm-2);
+  border-left: 5px solid var(--gold);
+}
+
+.patient-story p:last-child {
+  margin-bottom: 0;
 }
 
 .doctor-note {
@@ -411,6 +467,18 @@ a {
   color: #fff;
 }
 
+.turning-point {
+  padding: 46px 0;
+  background: var(--warm-2);
+}
+
+.turning-point h2 {
+  margin: 0 0 16px;
+  color: var(--navy);
+  font-size: clamp(27px, 7vw, 42px);
+  line-height: 1.12;
+}
+
 .product-reveal h2,
 .product-reveal .overline {
   color: #fff;
@@ -467,6 +535,18 @@ a {
   display: grid;
   gap: 14px;
   margin-top: 24px;
+}
+
+.formula-intro {
+  margin: 4px 0 24px;
+  padding: 18px;
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  background: var(--warm-2);
+  color: var(--navy);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .ingredients-grid article {
@@ -787,6 +867,49 @@ details p {
   text-align: center;
 }
 
+.order-trust {
+  display: grid;
+  gap: 7px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #4f5d6b;
+  font: 800 13px/1.3 Arial, Helvetica, sans-serif;
+}
+
+.order-trust span {
+  position: relative;
+  padding-left: 22px;
+}
+
+.order-trust span::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 4px;
+  width: 12px;
+  height: 7px;
+  border-left: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: rotate(-45deg);
+}
+
+.post-form-quote {
+  margin: 0 18px 22px;
+  padding: 14px 16px;
+  background: var(--warm-2);
+  border-left: 4px solid var(--gold);
+  color: var(--navy);
+  text-align: center;
+}
+
+.post-form-quote p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .form-loading {
   padding: 15px;
   border-radius: 8px;
@@ -881,7 +1004,9 @@ details p {
 @media (min-width: 560px) {
   .symptom-grid,
   .ingredients-grid,
-  .fit-list {
+  .fit-list,
+  .familiarity-strip ul,
+  .order-trust {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -993,7 +1118,7 @@ details p {
 
   .hero h1 {
     max-width: 300px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.08;
   }
 
