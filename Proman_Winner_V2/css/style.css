@@ -504,6 +504,75 @@ h3 {
   font-weight: 850;
 }
 
+.why-proman {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  background: #fff;
+}
+
+.why-proman h2 {
+  max-width: 660px;
+  margin-bottom: 18px;
+}
+
+.why-proman__cards {
+  display: grid;
+  gap: 12px;
+}
+
+.why-proman__cards article {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid rgba(18, 53, 93, 0.1);
+  border-radius: var(--radius);
+  background: #f8fbfd;
+  box-shadow: var(--shadow-soft);
+}
+
+.why-proman__cards h3 {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 18px;
+}
+
+.why-proman__cards p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.different-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #cfe9dd;
+  border-radius: var(--radius);
+  background: #edf6f2;
+}
+
+.different-row strong,
+.different-row span {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+}
+
+.different-row strong {
+  width: 100%;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+.different-row span {
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .how {
   color: #fff;
   background: var(--blue-2);
@@ -639,6 +708,19 @@ h3 {
   font-weight: 950;
   letter-spacing: 0.04em;
   text-transform: none;
+}
+
+.discount-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #fff0e5;
+  color: var(--orange);
+  font: 900 12px/1 Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em;
 }
 
 .price-panel p {
@@ -998,7 +1080,8 @@ input:invalid {
   .problem-grid,
   .ingredient-grid,
   .review-grid,
-  .trust-grid {
+  .trust-grid,
+  .why-proman__cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1161,6 +1244,10 @@ input:invalid {
   }
 
   .review-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .why-proman__cards {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
