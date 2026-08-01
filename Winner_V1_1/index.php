@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Proman</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="all" href="files/index.css" type="text/css" rel="stylesheet">
+    <link media="all" href="files/form.css" type="text/css" rel="stylesheet">
+    <link href="files/favicon.svg" rel="shortcut icon" type="image/svg"/>
+    <style>
+        .hide,
+        .flag-dropdown {
+            display: none;
+        }
+
+        /* обязательно */
+        .error-box {
+            /* CSS ошибки */
+            color: #fff;
+            background-color: #DE5042;
+            border-radius: 5px;
+            text-align: center;
+            width: 100%;
+            font-size: 14px;line-height: 20px;
+            margin: 0 !important;
+            z-index: 100;
+        }
+
+        input:invalid {
+            box-shadow: none;
+        }
+    </style>	  
+	<style>
+	
+	.err1, .err2, .err3, .err4{
+		display: none;
+	}
+	.error-box {
+    color: #fff;
+    background-color: #DE5042;
+    border-radius: 5px;
+    text-align: center;
+    width: 95%;
+    font-size: 13px;
+    line-height: 20px;
+    z-index: 100;
+    margin: 0 auto 0px;
+}
+
+
+        .hide, .flag-dropdown {
+            display: none;
+        }
+
+        .error-box {
+            color: #fff;
+            background-color: #DE5042;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 26px;
+            line-height: 35px;
+            margin: 5px !important;
+            z-index: 100;
+        }
+
+        input:invalid {
+            box-shadow: none;
+        }
+        @media (min-width: 769px) {
+        .error-box {
+            font-size: 13px;
+            line-height: 16px;
+        }
+        }
+    </style> 
+    <script src="files/jquery-2.2.2.min.js"></script>
+</head>
+
+<body data-landing-version="winner-v1-1">
+    <div class="container">
+        <header>
+            <div class="conContent">
+               
+                <div class="text-header">
+                    <img src="files/pharmacy-312139_960_720.png" alt="">
+                    <h1>Baier Association in Nigeria, Urology and Andrology Area</h1>
+                    
+                </div>
+            </div>
+        </header>
+        <div style="margin-top: 5px;" class="content">
+            <h1>
+               "Sleep Through the Night Again. No More Constant Bathroom Trips."
+
+                <span style="font-size: 20px;font-weight: 500;line-height: 24px; background-color: #ffe9b1; padding: 10px; display: block; margin-top: 15px; color: #000;">
+                    Especially for men: the strongest natural remedy for only <span class="new_price_val priceAndLabelForLandingInfoApi">49,000 NGN</span>! The promotion is valid until
+                    <script>
+                    function addZero(i){if(i<10){i="0"+i} return i}
+                    var days=0;
+                    var date=new Date();
+                    var last=new Date(date.getTime()-(days*24*60*60*1000));
+                    var day=addZero(last.getDate());
+                    var month=addZero(last.getMonth()+1);
+                    var year=last.getFullYear();
+                    var sNow=day+"."+month+"."+year;
+                    document.write(sNow);
+                    </script> inclusive!
+                </span>
+            </h1>
+            <h2>Wake up rested, reduce night-time bathroom trips and regain the confidence to feel like yourself again.</h2>
+            <div class="text" id="last">
+                <div style="text-align: left; font-weight: 600;">
+                    <span style="font-style: italic;">
+                        <span style="color: rgb(0, 204, 204);"></span>
+                    </span>
+                    <div class="content-image" style="text-align: center; display: inline-block; width: 100%;">
+                        <img src="files/6297.jpg" alt="">
+                    </div>
+                    <h4>
+                        <p style="color:#5a5a5a"> Dr. Rubén Argüero Sánchez – Since May 2021, President of the Medical College of Nigeria. General Director of the Department of Urology and Andrology at Baier. </p>
+                    </h4>
+                    <h3>Greetings, dear readers!</h3>
+                    <p> Today I decided to address a very delicate yet important topic: <b>men’s health</b>. Every day I receive a large number of requests asking about modern ways to restore potency. <br>
+                        <br> Surprisingly, most of these questions come from women who want to help their husbands cope with this serious problem. Men often ignore this issue. It’s understandable — no one wants to discuss such intimate matters with a stranger, even if it’s a doctor. <br>
+                        <br> Therefore, today I will try to explain <b>how to restore potency quickly and safely</b> without resorting to specialists, chemicals, or surgery.
+                    </p>
+                    <br>
+                    <p> It is worth noting that problems in bed appear quite early in modern men. The first “failures” with erection begin after the age of 30, and sometimes even earlier. If you do not take care of your health, unfortunately, impotence will await you over the years. <br>
+                        <br> Very often, after several failures on the love front, men begin using Viagra and other synthetic drugs. <b>You should not do that!</b> Yes, these chemicals provide strong erections, but only for a short time. <b>They do not treat the problem!</b>
+                        <br> Worse still, because of them, a man eventually loses confidence in himself and can no longer do without “magic” pills.
+                    </p>
+                    <div class="content-image" style="text-align: center; display: inline-block; width: 100%;">
+                        <img src="files/cirurgiadisfuncaoeretil-300x276.png" alt="">
+                    </div>
+                    <br>
+                    <div style="text-align: center;">
+                        <a href="" class="under-href" style="font-size: 19px;"> Is it possible to have strong erections and a healthy prostate at any age? How can this be achieved without chemicals? </a>
+                    </div>
+                    <p> Everyone knows stories about celebrities — men who, in old age, live and sleep with women much younger than themselves. These marriages even have children, and young wives proudly tell their friends about their men’s success in bed. <b>How do they achieve this?</b> With Viagra and similar products? <br>
+                        <br> Of course not! I had the opportunity to ask these men this delicate question, and for the first time I heard from them about a wonderful product: <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a>
+                        <br>
+                        <br>
+                        <b>This is a supplement made from 100% natural ingredients:</b> turmeric, zinc, ginger, guarana, tribulus, L-carnitine, L-arginine, as well as a large number of vitamins and microelements beneficial for men’s health. <br>
+                        <br> Not long ago, this powerful remedy for potency could only be purchased abroad for a lot of money. But now the product is available in Nigeria at an affordable price.
+                    </p>
+                    <div class="yourChance">
+                        <p> A government program has been launched in Nigeria in cooperation with <b>the international company Baier</b>. <br>
+                            <br>
+                            <b>The goal of the program:</b> to allow every man (regardless of financial status) to effectively get rid of poor erection and eliminate prostatitis before it worsens. As part of this government program, by agreement with the manufacturer, the total price of <b>Proman</b> is <span class="new_price_val priceAndLabelForLandingInfoApi">49 000 NGN</span>
+                        </p>
+                        <br>
+                        <p> The promotion will last until <span>
+                                <script>
+                                    function addZero(i) {
+                                        if (i < 10) {
+                                            i = "0" + i
+                                        }
+                                        return i
+                                    }
+                                    var days = 0;
+                                    var date = new Date();
+                                    var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+                                    var day = addZero(last.getDate());
+                                    var month = addZero(last.getMonth() + 1);
+                                    var year = last.getFullYear();
+                                    var sNow = day + "." + month + "." + year;
+                                    document.write(sNow);
+                                </script>
+                            </span> To place an order with a 50% discount, simply enter your name and phone number in the special form below this page. <br>
+                            <br>
+                            <b>Everything is confidential!</b>
+                        </p>
+                    </div>
+                    <div class="content-product" style="text-align: center; display: inline-block; width: 100%;">
+                        <img src="prod.png" alt="">
+                    </div>
+                    <p> Now <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a> is finally sold in Nigeria. It took us a long time to conduct laboratory studies and obtain all the necessary safety and efficacy certifications. <br>
+                        <br> The product is not just another chemical formula copied from one drug to another, but a unique combination of highly concentrated plant extracts. This makes it not only as effective as possible, but also completely safe when taken as a course.
+                    </p>
+                    <div class="sostav">
+                        <h1>What is the composition of Proman?</h1>
+                        <h2>The 7 main ingredients of Proman</h2>
+                        <ul>
+                            <li>
+                                <img src="files/s1.jpg">
+                                <p>
+                                    <span>Curcuma</span> Turmeric: Has anti-inflammatory properties and helps reduce the size of the prostate. This component relieves frequent urination by relaxing and contracting the bladder muscles, making it a powerful therapeutic component against prostatitis.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/s2.jpg">
+                                <p>
+                                    <span>Zinc</span> Zinc: This component maintains optimal hormone levels in the body, especially testosterone. It has a positive effect on arousal and maintaining an erection in men. In addition, zinc has antibacterial and immunomodulatory activity, making it a key component in the therapy of chronic prostatitis.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/s3.jpg">
+                                <p>
+                                    <span>Ginger</span> Ginger has a protective effect on the prostate. Its antimicrobial properties make it an effective component in the fight against bacterial and fungal infections. By stimulating blood circulation, ginger helps eliminate congestion, reduce swelling, and improve blood flow.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/s4.jpg">
+                                <p>
+                                    <span>L-Arginine</span> Arginine participates in spermatogenesis in men and affects the quality of sexual life, so its deficiency negatively impacts reproductive health. Arginine promotes relaxation of smooth muscles and blood filling of the cavernous bodies, ensuring a strong and long-lasting erection.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/s5.jpg">
+                                <p>
+                                    <span>L-carnitine</span> L-carnitine improves cellular energy metabolism, helps increase endurance, and reduces fatigue. This component supports cardiovascular health, which is essential for maintaining normal potency.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/s6.jpg">
+                                <p>
+                                    <span>Guarana</span> Guarana, thanks to its caffeine content, increases physical activity, endurance, and stimulates the nervous system. It improves blood circulation and increases overall body tone, which also has a positive impact on potency.
+                                </p>
+                            </li>
+                            <li class="li-mar">
+                                <img src="files/s7.jpg">
+                                <p>
+                                    <span>Tribulus</span> Tribulus (Tribulus terrestris) is known for its ability to increase testosterone production, which helps improve erection and sexual function. This component also contributes to increased sexual desire and sexual energy, improving the overall condition of the body.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p> The product <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a>, used to treat prostatitis, has dual European and Mexican certification. This dual certification is a testament to the quality and effectiveness of the product in treating this condition. </p>
+                    <br>
+                    <p> Having both European and Mexican certifications demonstrates that it has passed rigorous quality standards and has been evaluated by experts in both countries. </p>
+                    <br>
+                    <p>
+                        <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a> is a reliable option supported by these two certifications, providing peace of mind to patients seeking an effective treatment for prostatitis.
+                    </p>
+                    <div class="img-top" style="text-align: center; display: inline-block; width: 100%;">
+                        <img src="files/seka.jpg" alt="">
+                    </div>
+                    <br>
+                    <br>
+                    <p>
+                        <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a> works, but unlike Viagra, this supplement is absolutely safe for the body and not only provides an instant effect, but also delivers a long-lasting action when taken for a certain period (course). <br>
+                        <br> Thanks to this, men maintain a strong and stable erection even after stopping the supplement.
+                    </p>
+                    <div class="effects">
+                        <h1>Now let’s take a look at the main effects of Proman starting from the first intake:</h1>
+                        <ul>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Improved erection:</span> arousal increases, and a stable erection lasts throughout the entire sexual intercourse.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Prolonged sexual intercourse:</span> the duration of intercourse increases by 2–3 times, providing complete sexual pleasure for the partner (allowing her to become aroused and achieve a strong orgasm).
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Improved functioning of the genitourinary system (elimination of prostatitis).</span>
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Reduces the risk of developing cancerous tumors.</span>
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Prevents recurrence of the disease.</span>
+                                </p>
+                            </li>
+                            <li>
+                                <img src="files/accept.png">
+                                <p>
+                                    <span>Normalizes urination.</span>
+                                </p>
+                            </li>
+                            <li class="li-mar">
+                                <img src="files/accept.png">
+                                <p class="p-bot">
+                                    <span>Powerful orgasm:</span> sensations during orgasm are intensified due to increased penile sensitivity and increased libido.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p> Despite the fact that <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a> improves erectile function and eliminates prostatitis from the first dose, I recommend taking this supplement for 30 days or more. Let me explain why. <br>
+                        <br> In 4–5 weeks, the concentration of the product’s active substances reaches an optimal level in the body (cumulative effect). This provides maximum benefits for a man’s sexual health and also ensures a prolonged effect of the product. <br>
+                        <br> Therefore, even after stopping the supplement, your erection will remain just as strong and stable! This is the dream of every man… and every woman, isn’t it?
+                    </p>
+                    <div class="img-top" style="text-align: center; display: inline-block; width: 100%;">
+                        <img src="files/T6PNHCCZ.jpg" alt="">
+                        <p style="color:#5a5a5a; margin-top:15px;">Dr. Rubén Argüero Sánchez</p>
+                    </div>
+                    <p> Men over the age of 50 often ask me whether they can achieve good potency with a long, strong, and stable erection. <b>My answer is, of course, yes!</b>
+                        <br>
+                        <br> Believe me, at this age, regular sex for a man is absolutely normal! Moreover, even if you are over 60 years old, <b>you can easily restore your potency with Proman.</b>
+                        <br>
+                        <br> Thanks to Proman, you can have sexual intercourse for hours.
+                    </p>
+                    <br>
+                    <p> It is very important that a remedy for potency does not contain chemical ingredients and is absolutely safe for health, so it can be used at any age. Proman is exactly this type of product — that is why <b>these capsules are confidently recommended by all urologists in Nigeria!</b>
+                        <br>
+                        <br> Proman has another significant advantage: this supplement not only effectively restores potency, but is also one of the best methods of preventing prostatitis. It has been proven that regular intake of the product during the treatment course improves prostate function, prevents age-related changes in the male genitourinary organs, and also eliminates inflammatory and infectious processes in the pelvic organs.
+                    </p>
+                    <div class="priem">
+                        <h1>How should Proman be taken?</h1>
+                        <ul>
+                            <li>
+                                <img src="files/p1.png">
+                                <p>Take 1 capsule and drink it with water.</p>
+                            </li>
+                            <li>
+                                <img src="files/p2.png">
+                                <p>Take it 1–2 times a day.</p>
+                            </li>
+                            <li class="li-mar">
+                                <img src="files/p3.png">
+                                <p>Minimum course of treatment: <span>30 days</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p> It is important that <a href="" class="under-href">
+                            <b>Proman</b>
+                        </a> is effective both for men <b>with physiological pathology</b> (erectile dysfunction) and for those who have psychological problems (inexperience, loss of confidence after sexual failures, etc.). <br>
+                        <br> Proman intensively restores and improves potency, allowing you to fully enjoy your intimate life with your loved one. It is a pity that many underestimate sexual intimacy, without realizing how important it is for <b>the physical and emotional health of EVERY PERSON!</b>
+                    </p>
+                    <br>
+                    <p> In conclusion, I want to address all men who have wives and beloved women. I tell all my patients this: <b>eliminate impotence problems in a timely manner.</b>
+                        <br>
+                        <br> Remember that sex and satisfaction in bed are extremely important for a couple, especially at a young age. If you do not have regular and high-quality sexual relations, you will make your loved one unhappy! Ultimately, this can lead to divorce or infidelity. And who will be to blame for that? <br>
+                        <br>
+                        <b>Take care of your sexual health right now — no one but you can help yourself!</b>
+                    </p>
+                </div>
+                <div class="block2">
+                    <p>
+                        <span class="red">Attention!</span> Especially for our readers, we have placed the <a href="" class="under-href">ORDER FORM</a> for Proman from the only official supplier! By placing an order here, you are guaranteed to receive a high-quality product with proven effectiveness at the best price.
+                    </p>
+                    <br>
+                    <p> Get <a href="" class="under-href">Proman</a> as part of a limited-time promotion <span class="red">with a 50% discount.</span> The number of promotional packages is limited — hurry up! </p>
+                </div>
+                <br>
+                <br>
+                <div style="margin-top: -20px;" class="conteinerCenter">
+                    <div style="text-align: center; display: inline-block; width: 100%;">
+                        <br>
+                        <a href="">
+                            <img class="form-img" src="prod.png" alt="">
+                        </a>
+                    </div>
+                    <div class="maxB" style="width:100%">
+                        <br>
+                        <div style="text-align: center;">
+                            <div class="form action__form">
+                                <h3 class="form__title"> PROMOTION! GET A 50% DISCOUNT ON YOUR ORDER! </h3>
+                                <p class="form__text"> Time left until the end of the promotion: </p>
+                                <div class="timer">
+                                    <div class="hour">
+                                        <div class="hms" id="h">00</div>
+                                        <div class="timer_text">HOURS</div>
+                                    </div> : <div class="minute">
+                                        <div class="hms" id="m">49</div>
+                                        <div class="timer_text">MINUTES</div>
+                                    </div> : <div class="second">
+                                        <div class="hms" id="s">47</div>
+                                        <div class="timer_text">SECONDS</div>
+                                    </div>
+                                </div>
+                                <div class="form-wrapper">
+                                    <img src="files/pharmacy-312139_960_720.png" alt="" width="100px">
+                                    <div class="prices" id="form__block">
+                                        <p> Previous price: <span class="oldprice">
+                                                <span class="oldPriceAndLabelForLandingInfoApi"> 98 000 NGN </span>
+                                            </span>
+                                        </p>
+                                        <p> New price: <span class="newprice">
+                                                <span class="priceAndLabelForLandingInfoApi"> 49 000 NGN </span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <form action="lemon.php" method="post" id="form" class="orderForm">
+                                        <div class="input-group tooltip-hide">
+                                            <input class="form__input" type="text" name="name" id="name2" placeholder="Enter your name" required="" value="">
+                                        </div>
+                                        <div class="input-group tooltip-hide">
+                                            <input class="form__input  mob1 val2" type="tel" name="phone" id="phone2" placeholder="Enter your phone number" required="" maxlength="" minlength="" value="">
+                                        </div>
+                                        <button class="form__btn sub2" type="submit" name="button">ORDER</button>
+                                        <p>* Free consultation with a specialist</p>
+                                        <p>* Pay the courier upon receiving the package</p>
+                                        <input type='hidden' name='utm_source' value='<?= $_GET['utm_source'];?>'>
+                                        <input type='hidden' name='utm_content' value='<?= $_GET['utm_content'];?>'>
+                                        <input type='hidden' name='utm_campaign' value='<?= $_GET['utm_campaign'];?>'>
+                                        <input type='hidden' name='utm_term' value='<?= $_GET['utm_term'];?>'>
+                                        <input type='hidden' name='utm_medium' value='<?= $_GET['utm_medium'];?>'>                
+                                        <input type='hidden' name='clickid' value='{subid}'>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div id="comments">
+                    <br>
+                    <h1> Comments: </h1>
+                    <div class="comment">
+                        <span class="text1">Lucia</span>
+                        <div class="verified">
+                            <p>
+                                <img src="files/verif.png">Verified user
+                            </p>
+                        </div>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <img src="files/foto1.jpg" style="float: left; padding-right: 10px;" alt="img">
+                            <div class="txtCom"> I was diagnosed with mastopathy, and in addition to treatment, the doctor recommended that I have regular sexual intercourse. But my husband had weak potency for a long time. We had sex at most 1–2 times a month. Most of the time, it didn’t work. When I tried to talk to him about it, it only made things worse. He was terribly depressed, tried to justify himself… and then sex disappeared completely from our lives. I don’t know where I would have ended up if my friend hadn’t recommended <a href="" class="under-href">
+                                    <b>Proman</b>
+                                </a>. I ordered it myself and gave it to my husband; he was grateful for the help. The very first night after he took these capsules, we made love! Now it’s been two weeks since my husband started taking the product, and almost every night we enjoy being close to each other. This is a magical remedy! My friends say I’m glowing with happiness :) </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Monica</span>
+                        <div class="verified">
+                            <p>
+                                <img src="files/verif.png">Verified user
+                            </p>
+                        </div>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <img src="files/foto2.jpg" style="float: left; padding-right: 10px;" alt="img">
+                            <div class="txtCom"> My husband and I have regular sexual relations, three times a week or more. But somehow I accidentally noticed that my husband was taking Viagra! Can you imagine? He didn’t tell me anything about his problems, and I thought everything was fine with his potency despite his age… After that, I scolded him severely, because Viagra causes serious harm to health. He had severe headaches and high blood pressure. Why pay such a high price for sex? We started looking for natural remedies to improve potency and found <a href="" class="under-href">
+                                    <b>Proman</b>
+                                </a> on a sexual health forum. Many patients wrote about how Proman helped them. The doctor said: you must complete a full treatment course so the problem does not return. My husband did exactly that — he took Proman for 4 weeks and fully restored his potency. Three months have passed, and his penis is just as strong! </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1" style="color: rgb(180, 4, 4);">Dr. Rubén Argüero Sánchez</span>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <img src="files/images-icon.png" style="float: left; padding-right: 10px;" alt=""> Monica, I couldn’t leave your comment unanswered… You have no idea how happy I am for you that you found this natural remedy for erections. You are absolutely right — there is no need to swallow chemical pills and destroy your heart with Viagra. I’m glad I raised this important issue. Judging by the number of comments, this problem is truly urgent. I want to say once again to all men and women: do not poison your bodies with chemicals and do not allow your loved ones to do so! Today, there is a modern natural remedy for the safe restoration of sexual health — these are <a href="" class="under-href">
+                                <b>Proman</b>
+                            </a> capsules. <br>
+                            <br> Sincerely, Dr. Rubén Argüero Sánchez
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Alba</span>
+                        <div class="verified">
+                            <p>
+                                <img src="files/verif.png">Verified user
+                            </p>
+                        </div>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <script src="files/boostropsdn-jquery.js"></script>
+                            <img src="files/foto5.jpg" style="float: left; padding-right: 10px;" alt=""> My husband had erection problems when he was 42 years old. We spent a lot of money on various specialists, and everything was useless. Then, about 1.5 months ago, we learned about Proman. We bought Proman mostly out of curiosity and didn’t really expect real results. I couldn’t even imagine how effective it would be! As a result, my husband completed the treatment, and now everything is fine. Now I don’t understand how we used to live like neighbors without sex. Intimacy greatly strengthens relationships — my husband and I are experiencing a second honeymoon!
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Carlos</span>
+                        <div class="verified">
+                            <p>
+                                <img src="files/verif.png">Verified user
+                            </p>
+                        </div>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <img src="files/foto6.jpg" style="float: left; padding-right: 10px;" alt=""> I’m sure everyone knows my story, because a lot has been written about me on the Internet. I also wrote about Proman on my blog, but few people read it. Well, I was almost 60 years old when I married a beautiful 26-year-old woman. I was very happy, but I quickly realized that I could not satisfy her sexually. Fights and scandals started because of this… It was impossible to live with a young woman without good sex! If it weren’t for Proman, I would hardly have been able to save my marriage. With these capsules, I feel like a real man again! I’m very proud!
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Alejandro</span>
+                        <div class="verified">
+                            <p>
+                                <img src="files/verif.png">Verified user
+                            </p>
+                        </div>
+                        <span class="text2"></span>
+                        <div class="text3">
+                            <img src="files/foto7.jpg" style="float: left; padding-right: 10px;" alt="">
+                            <a href="">Proman</a> is an excellent remedy. A friend recommended it to me when I told him at a party that without Viagra I could no longer have sexual intercourse. I am very grateful to my friend, who was genuinely surprised by my problem — I’m not a 70-year-old grandfather. My potency returned quickly and became even stronger than before. I hope it stays that way forever. <br>
+                        </div>
+                    </div>
+                    <div class="comment"><span class="text1">Leandro</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto8.jpg" style="float: left; padding-right: 10px;" alt=""> I took Proman two months ago, the effect is strong — everything is still great! For those who are going to buy these capsules, I want to say: don’t worry, this is not Viagra, but a completely natural remedy. And it contains many beneficial ingredients: turmeric, zinc, ginger, etc. So order it — you won’t regret it. </div></div><div class="comment"><span class="text1">Juan</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/o111.jpg" style="float: left; padding-right: 10px;" alt=""> I started taking <a href="">Proman</a> secretly from my wife — I didn’t want to tell her that I had problems. And I was very surprised by the effect! The erection became powerful immediately. And my penis also became bigger — especially in thickness. Just imagine how surprised my wife was, since she has known me for many years! At first, she was even scared and started asking whether I had undergone penis enlargement surgery. I barely managed to calm her down :) Our sex life has improved greatly! Previously, my wife could only orgasm if she stimulated her clitoris during sex, but now she has orgasms from my penis! <br></div></div><div class="comment"><span class="text1">Carla</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto9.jpg" style="float: left; padding-right: 10px;" alt=""> Juan, I also noticed that my husband’s penis has grown. This was an unexpected bonus! I immediately noticed the difference. Before, I thought that size didn’t matter — I was wrong! It really does matter. Now I have truly fantastic orgasms, I climax easily every time. It seems to me that I’ve already exhausted my husband with my sexual appetite, and I’m even a little embarrassed about it… </div></div><div class="comment"><span class="text1">Ruis</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto10.jpg" style="float: left; padding-right: 10px;" alt=""> I also want to share my joy with you. I am 65 years old, and thanks to Proman I was able to quickly restore my erection and once again enjoy the pleasure of sex. Life is much more enjoyable this way! And you know, it felt like I had become 20 years younger — fatigue disappeared completely. Thank you for such an effective product at an affordable price, which is a real rarity nowadays. <br></div></div><div class="comment" id="services"><span class="text1">Dionisio</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto4.jpg" style="float: left; padding-right: 10px;" alt=""> I am amazed by the powerful and long-lasting erection I achieved after 4 weeks of taking Proman. Now I have sex for at least 40–60 minutes. Before, everything ended after just 10 minutes… Do you understand the difference? I’ve become very resilient. And when I finish, after 5 minutes I’m ready to make love again — of course, if the woman wants a sequel! :) Because before that, she had already experienced several orgasms. </div></div><div class="comment"><span class="text1">Camilo</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto11.jpg" style="float: left; padding-right: 10px;" alt=""> I was very afraid of any potency remedies after my bad experience with Viagra. I started having heart problems. But after some time, I decided to try a natural product — Proman. Indeed, my head no longer hurts, and my heart beats calmly. Therefore, I recommend this supplement to anyone suffering from erectile dysfunction. As for effectiveness and duration of action, Proman is 100 times better than Viagra! <br></div></div><div class="comment"><span class="text1">Maria</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto12.jpg" style="float: left; padding-right: 10px;" alt=""> Proman helped my husband a lot! For a long time, we were unable to have normal sexual relations, and I saw how much my husband was suffering. He was constantly depressed, especially after another failure in bed. It’s wonderful that everything changed with Proman. Now I am very happy with our renewed sex life, and my husband is also proud of himself. For a man, this means a lot! </div></div><div class="comment" style="display: inline-block;"><span class="text1">Julio</span><div class="verified"><p><img src="files/verif.png">Verified user </p></div><span class="text2"></span><div class="text3"><img src="files/foto13.jpg" style="float: left; padding-right: 10px;" alt=""> Tell me, where can I buy Proman? I couldn’t find it in the pharmacy… Or is it not sold there? <br></div></div><div class="comment"><span class="text1" style="color: rgb(180, 4, 4);">Dr. Rubén Argüero Sánchez</span><span class="text2"></span><div class="text3"><img src="files/images-icon.png" style="float: left; padding-right: 10px;" alt=""> Be careful! Original <a href="" class="under-href"><b>Proman</b></a> can ONLY be ordered from the official supplier in Nigeria. Especially for our readers, we have placed the <a href="" class="under-href"><b>Proman ORDER FORM</b></a> with a 50% discount by agreement with the manufacturer. Enter your name and phone number and click the “ORDER” button. Please note that almost all promotional packages have already been sold out. Hurry up if you want to save money — the promotion will not be repeated anytime soon. <br><br> Sincerely, Dr. Rubén Argüero Sánchez </div></div><div class="comment"></div>
+                </div><div style="text-align: center;"><div class="insite"><a href="" class="button_page">ORDER</a></div><div class="politica" style="text-align:center; padding: 20px; font-size: 18px;"></div></div><br>
+            </div>
+            <div class="strongRightbar">
+                <div class="sidebar" style="border: medium none;">
+                    <div class="itemfirst">
+                        <div class="author">
+                            <p> Article author: Dr. Rubén Argüero Sánchez </p>
+                            <ul>
+                                <li>Renowned Nigerian physician, expert in urology</li>
+                                <li>Doctor of Medical Sciences</li>
+                            </ul>
+                        </div>
+                        <p> At NMU Urology, we conducted a study of the properties of <a href="" class="under-href">
+                                <b>Proman</b>
+                            </a>
+                        </p>
+                        <p> 135 volunteers suffering from impotence and erectile dysfunction took Proman for 30 days. These are the results they achieved: </p>
+                        <hr>
+                        <br> 1. In 100% of men, erection improved instantly. <br>
+                        <br> 2. 100% of men experienced no side effects. <br>
+                        <br> 3. 87% of men noticed a significant increase in the duration of sexual intercourse (by 2–3 times). <br>
+                        <br> 4. 83% of men noticed an increase in penis size (length and girth) in the erect state. <br>
+                        <br> 5. 98% of men showed increased ejaculatory motility (sperm) and improved reproductive function. <br>
+                        <br> 6. In 100% of men, orgasms became brighter and longer. <br>
+                        <br>
+                        <hr>
+                        <div style="text-align: center;">
+                            <br>
+                            <img src="prod.png" style="width: 200px;" alt="">
+                            <a href="" class="under-href">
+                                <br>
+                                <br>Proman </a>
+                            <br>
+                            <br>
+                            <div style="text-align: center;">
+                                <div class="insite">
+                                    <a href="" class="button_page"> Get it for <span class="new_price_val priceAndLabelForLandingInfoApi">49 000 NGN</span>! </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="linksSetsDiv"></div>
+    
+	
+ 
+<script type="text/javascript">  
+ 
+    $("a").click(function(e) {  
+ 
+        e.preventDefault();  
+ 
+        var destination = $('#form').offset().top;  
+ 
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);  
+ 
+        return false;  
+ 
+     })  
+ 
+ </script>
+
+    
+
+
+                        
+ <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    let _second = 1000;
+    let _minute = _second * 60;
+    let _hour = _minute * 60;
+    let _day = _hour * 24;
+    let distance = 0 * _minute + 1 * _hour;
+
+    function showRemaining() {
+      distance = distance - 1000;
+      console.log(distance);
+      let hours = Math.floor((distance % _day) / _hour);
+      if (hours < 10) hours = '0' + hours;
+      let minutes = Math.floor((distance % _hour) / _minute);
+      if (minutes < 10) minutes = '0' + minutes;
+      let seconds = Math.floor((distance % _minute) / _second);
+      if (seconds < 10) seconds = '0' + seconds;
+
+      document.getElementById('h').innerText = (hours); // если не используется удалить
+      document.getElementById('m').innerText = (minutes);
+      document.getElementById('s').innerText = (seconds);
+    }
+    showRemaining();
+    setInterval(showRemaining, 1000);
+  });
+</script>
+
+<script>
+  window.history.pushState({page: 1}, "", "");
+
+window.onpopstate = function(event) {
+if(event){
+ window.location.href = '{offer}';
+       
+    }
+}
+  
+</script>
+
+
+ 
+   <script>
+	    function lockform(form){
+	        // message - сообщение нетерпеливым
+	        // imageBase64- сюда можно установить свою картинку в строке base64
+	        var message = '¡Espere por favor!'; 
+			var imageBase64 = 'R0lGODlhHgAeAPYAAIHM/7zk/5DS//L6/+z3/6Tf/7Tk/tzz/4bT/un3/6ng/2nJ/v7+//D6/3bO/6vd//b7/+Dy/9Lv/7jm/+H1/+75/5bZ/9ry/+74/fb6/eL0//T5/KDY/9Lt/3zQ/8br/2bB/9fx/w2n/Mzq/wCY/5nW/z66//L4/K7i/+j1/Ei+/3PN/+v4/+b1/7Pg/9nw//n8/vT7/5/d/8zr//T6/vr9//z+//3+/8Dm//z9/s/u/8Pp/vn9/vX8/8Lp/3DF/4zR/9nv/0q9/W7L//X6/UCy//P4/J/Z/0q+/xyt/LPk/8/r/+n2/BCe/1PC//n9//D5//f8/8bo/9/y/43W/+b2/9Ds//v9/nnJ/yCl/+v2/Kbb/yuy/F/G/1bD//X7//n8/7zn//r8/svs/2C//4fU//H5/czt//j8//3+/uX2/2LH/zu4/d/0/zCr/9bu/8Pq//j8/rDf/9Tw/6/j//X7/lC4/7nj/9zx/4HS/+T1/1nD/fL5/Zjb//f7/f///yH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjVEMjA4OTI0OTNCRkRCMTE5MTRBODU5MEQzMTUwOEM4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkNCNDE4NjI0OUI5RjExRTE4MTc4RDRBQTc2OURFNTk5IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkNCNDE4NjIzOUI5RjExRTE4MTc4RDRBQTc2OURFNTk5IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTIzNjE2MUUwRjIwNjgxMThDMTREREU0QTUwMUM5NEYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTEzNjE2MUUwRjIwNjgxMThDMTREREU0QTUwMUM5NEYiLz4gPGRjOnRpdGxlPiA8cmRmOkFsdD4gPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5URkhPTUVQQUdFX2xvYWRzY3JlZW4yPC9yZGY6bGk+IDwvcmRmOkFsdD4gPC9kYzp0aXRsZT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQFAAB/ACwAAAAAHgAeAAAH/4B/goOEhCQkhYmKg0REhYeFIGSLhRknJxmGiIM/IiI/lIRGJ0aahEUiSaGEG5cbg5CCZJ6Tq4OjpYKxf0kiXKEYlZe5bm6Cdp5YhcqDKSlarEavkUl2hCAmJoRMzs+2hD9C2UiFWt1M339I2SagiRjmKenZZEDAwd9YAOn8i2r///oJKkGQ4J8QCBO+6bdHhUOHey4kRHihX5eHDr0I3MjRVoeF+exRerNkxIhvAkCA+CEgURArJkd0SIdFJQhmgoLE7ICnn4AfNge9GGEFpCADKHwkorKCCiEgP9wtCoMiqSAOWwQxXXGknxwUEwTJMSjIw4o8/KiiGCOW7J8SKyhWWEhXNcygsSUI5Vnh4RsOFHQI4SW0ZYWDdEoFuxVUpuOfACU4pAsEACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEJyeFiYqDGBiFh4V2douFZikpjoOQgyAkJCCUhEwpTIaIg1kkTaGEWpdamqd/dp6TrIOjpYKbf00kWaFthRiXuhsbgkWeoITMgiEhB61MmYRkTUWEdiIihNAhb8K3g9vcSYUH3xfjf0ncIraFGukh7NxFWKEU4rdkP+wAF+EZODCgIAEIEf4ZwbDhiIBCTEiUKGSJwxFWApKZKNGJwY8gb4XBwW5NPko4lKBAMQ6AChVeACSCM2ElnQnsfrxU8W+Qj5UoJnwICMDLS4+CPqBQ4oMQhxIuEgEAIXMQFid7Qj0oAVXQj5NTQQgIyHWLICAgnP0AcXLc1hIBKM6mHSQgLRB2XB8MQuvsDxYQPVnJKXGEEF+ngNnJKXSYUFWQHBKPCwQAIfkEBQAAfwAsAAAAAB4AHQAAB/+Af4KDhIQpKYWJioNtFIWHhUQbi4VqISF6hoiDRCcnGZSEFyEXmoRGJ0ahhG2XbYOQghueRKuipLCbf6iqlG+Fepelf1pasp6ghHaEIyMdhAcXr5Enk4NuJCSES80jv7aDRU3ZTYUd3Vbgf+PZRYov5yPq2Vk/oUHftkVk6v2LYwAB+hMEoGDBP3RQKFTowl8SERAhJlGyUKESf0UiQnQzsKNHWw/kqANhj5IcDiVKgMNiwgQSRS62pCyxZWRLEyAIuZi55c5AJy1VDLpTgoPIQXlWWEiEBUnJQUiEhLKwQmmiHypU5PEHYAWCRV5UdOlHZYWDB4sAZMWizsEKKqERuqhwAo6qg1UCkNCtC27BokAAIfkEBQAAfwAsAAAAAB4AHgAAB/+Af4KDhIQhIYWJioNBQYWHhRgYi4V4IyN4hoiDGCkpk5SDSyNWmoRaKUyhhG+Xb4OQgp2fq4RWI0uwm39MqaE+lZelfwcHgqi0hESEKChhhB1Lr5EpWoQbJyeEdM1yOLXX2SdGhRPNKErgf0biG4of5nTq2UYZoXDA4BvL6v2KOAAB+hOEpWDBPxxKKFTIwV8TEhAhNkm4sETDflkiShzIsWMtKhbUFSETyoKHFQ7AkREhIgmIREcQrEBZRiRLEUUIHZm5AsEWfyDc3Bx0xEGekIOwgBCQ6IeJl4PIJEkSCgiIpYK8rBEEwoQJAP5+gMAiyIEKFYOQmCCpDsDVi2Yl0Q7y2u8q2LJnCZExgQSc1R+E4hICwlcdkEKCCUHtKADJHnWBAAAh+QQFAAB/ACwAAAAAHgAeAAAH/4B/goOEhCMjhYmKgz5whYeFbW2LhWMoKGOGiIMaISEalIRKKAaahBchF6GEYZc4g5CCbZ6Tq4MGKEqwm3+oqpRyhR+XpX8dHYIHnqCEGIQlJQ+sSq+FFEEHhFopKYQc0CXBtoPb3EyFD+Ac439M3Claindb0OzcWs6ULuK2+Oz/ix4IFAhQUIaDB/94WMGQoQeAJyJKPLGw4Yo8AI1MPGGkoMePtgAAYeemSCggP0CAGGeHBIkmZBIJwKISBACSLkm4ISSgJpYSAO00cdlkUAkQP0YO6iLkZiE7IuwQElqUEhYVKpwiifkHqoiV//aoWCMIiwkTg5KIMMnuKhIBZSrPDgIhQgRXW0hU/BhkFu2gIiKSjMOCxAmhvocDs3PKV+5UkH+AmBDCLhAAIfkEBQAAfwAsAAAAAB4AHgAAB/+Af4KDhIQoKIWJioMuLoWHhUFvi4U4JSUBhoiDLyMjL5SEHCUcmoRWI0uhhHKXcoOQgm+ek6uDo6WCsX9LI1ahJYV3l7kTE7KeeIVthA4OVIQPHK+RIx2EByEhhB4rKw4WtoRtb9oXhVQO3nnifxfaIQeKMmXf7eZ6oUfh4m0U7QAXcRg4MKAgDAgR/vkBomHDHwFTSJyYgqFDEBABMqGYgonBjyBt/cDSbsOGUFi8qEAijsiJE0aIJAKyRsXKBSVfnjg5CIBNFWsEBCRiROcgIEi8ACBExgTJQkVIuCG04WWoHyacCkpSRJAbEiTIBBRiQuwfMiJEDGpCIgtArCYnBqFVK8gOWDvtsjJNSygLiSZ5VeylK+jH33ZP5fIlNDUkFhFJ2gUCACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEJSWFiYqDJUeFh4U+OIuFDysrW4aIgx8oKB+UhB4reZqEEyhKoYQWlxaMm384nj6rhHkrHrCDSqmhAoVbl6V/W5l/YZ6ghEGEICAAhFQer5EGYYQdIyOEP88/QLaEb9sjS4UAzyA/4n9L5R2KJVjP7dtWeL/h4m/N7f/yDkEC+EeNQYN/9qhYuHAPwDchIkZ84YXhQi8AL0iMeIGgx48gF2nRsgqJCRPiMKRIwQRDIgBkTpoA0U7LyhQkCckks68dBiY3BwEw4QQLoSIiaBbacGIDIS1AQ9kRkVRQkyyCmJ4gAjCJiCKC7JAgMcjICSP/poow+kcsWUFEI040bUfVziC3hMyitUVGRBJCeAdlkNuOTKHAg5yC/EGiSbtAACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEKyuFiYqDAgKFh4UucouFWyAgHIaIg3clJXeUhD8gWJqEWyWZoYNAl0CDkIJyni6rhFggP7CbfxypoQCFJZelf2Vlgg+eoIQ+hEhIuoMAP6+RHA+EEyh0hE4qKnvFtoJhcigoSoU/SOBd5H9K6ChhikA/KkjwdCgTH6FAgpHDAQeewUWNEh4UhKdhwz9CTEiUKOTgiIsYRyCZKNHJQSsZRyxZSLKkLTtk4B1oE4qMGxEiyFEIEeIChUQgisAUUUQlzRAHCIHYWWSczAs/B/3gmXJQFhJ2EmlJoYVQmxBvQhUhAVWQESOCpqbAcLAJiSyCiJw4MYhJCiYGKbeSkKaWrSAMKajC49oz7VpCbuGeJNGEUF1CeFPAi2r4L6GqJjM4thUIACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEICCFiYqDAECFh4UlFouRKkgChoiDRysrR5SEXipdmYQIKx6ghFgqKliDkIIWnZOqg10qTrCafx4reaCvhAJIo4JYwlSdW4UuhCYmhVhOwoRHHlSEWyUlhEjQQraFD9wlHInQJrriHOUPiyDQ4n/cWwGgANWqcnfz/osAAgb8J2iMQYN/kohYuDDJPxcoIkY0oJChCC7/DEiMqISgx4+23NiZ1+ENKDtNSJAQF2TEiCVBEpHJopKEG5IuR3QgZKdmlh//gizJCYtElpGDjJwgkqhNiAOE3gwFteHEUkFMtAg6ECIEhX9WjQjCkCLFoAshLvireiLD2LKDIJyGaDPP6oZBZM2eTSuOLaG8hPR0ncf0L1xCUEECFhcIACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEKkiFiYqEAIUqKoUCQIuJJiaOkIMlICAllIRIJmSGmYJYID+fhD+WpINAnAKqhE4miIKPgz+onyCFQJajf2trggCcnoTJgiIidqu3kT+Ng2UODoRJzUnCs4JUDisrHoV2zSJc3n8e4g5Uij9FzerheVu93aoWR+r9i1gAAfoThKNgwT9NSChU2MQfhxIQIXJIuJBEFocRJQ7cyHHWhg3qJoT5tMHIiRPefKBAocRHIiImT4L0NmEligmEiJw8YSSDPx9KVtIZpNMIEUJMUmBI9GZEB0I46Lj4pCWFUkEXLgjqMGJEEH9WtQhqEyLEoCUjrPSrevUPWbOCIoJ0faMu7KC3hKyMWOKNLSG8g/B0Vbf0b9lCTzvqCfFCXSAAIfkEBQAAfwAsAAAAAB4AHgAAB/+Af4KDhIQmJoWJioMgP4WHhQAAi5EiIliGiINAKipAlIRJIkWZhF0qXqCEdpZkg5CCAJ2TqoNcIkmvmn9OqKB2hViWpH8gIIJYKkgChcyDJCRuq0mukXtDhADGhE3QTcC1m8aNhW7QJFnhfz/jtIUg5iTqxlgcoGTgtUAl6v2LGQAB+hP0oGDBPycSKjzhz8OKhw89GFl4woi/PBAjDtzIsZYWLeq2yAGlhUmKFOFclCjBwUUiDFpOpgAZbsvKElsIYZCpBYM/FxxuDtrJxOegCyEoJAqDYgIhOUfsUWoTIkQbQUusCJqAAgUcf29CXBAUZMSIQUpQGOh3oKoesmYnB/noikNd1QODyp4dZACFknBUQxDSS+gDCjrqrg6OS8hpRzyMawUCACH5BAUAAH8ALAAAAAAeAB4AAAf/gH+Cg4SEIiKFiYqDdmSFh4lYi4VYJCQ/hoiDACYmAJOETSRZmYRkJkighEWWdoOQglidkqqDWSRNr5p/SCZOoESFP5akf0VFgj+dQIWfgycnG6tNrolCmIM/SKnP0NG1hFhCKiq/hBveRuB/XuRItIUZ6CfrSCpdAsDB4FjM6/+KMAgUCFAQh4MH/6RYyDAFwB8gIkb8waRhCiYAsUicWLCjx1oH2qwrYwFUmwshQoCzsGKFhyOJKKBMeWBkyxVlCFFIGeKAHoBHPLR0MGjnBZGDrIwIkuhBiS2ELHjwAOrNiKWClEwQ5LSEC4BXrQjygQLFIA5P/1kdgWds2UEuJkqUkLPuaodBZM2eLcEBnNUlhPISCiB33ZtCggk9+PhnDB0D6wIBADs=';
+	        
+	        var inputs = form.getElementsByTagName('button');
+	        for (var i = 0; i < inputs.length; i++){
+	            var submit = inputs[i];
+	            
+	            if(submit.type === 'submit') {
+	                var ntf = document.createElement("div");
+	                ntf.innerHTML = '<center><img src="data:image/png;base64,'+imageBase64+'"><br>'+message+'</center>';
+	                submit.style = 'display:none';
+	                submit.parentNode.insertBefore(ntf, submit.nextSibling)
+	                break;
+	            }
+	        }
+	    }
+	    
+        document.onreadystatechange = function(){
+           if(document.readyState === 'complete'){
+                var forms = document.forms;
+                for (var i = 0; i < forms.length; i++){
+                    forms[i].setAttribute("onSubmit", "lockform(this);");
+                };
+           }
+        }
+	</script>
+	
+	
+<script src="files/tooltips.js"></script>
+	<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector("#form"); //"#form" - id вашей формы, смотреть в форме, если нет, то добавить
+    const inputPhone = form.querySelector('input[name="phone"]');
+    const submitBtn = form.querySelector("button");
+    const countryCode = "+234"; // Код страны - меняем на свой
+    const maxDigits = 10; // Максимальное количество цифр после кода страны
+    const cookieName = "submittedPhones"; // Название cookie для хранения номеров
+
+    // Функция для установки cookie
+
+
+    const setCookie = (name, value, days) => {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      document.cookie = `${name}=${encodeURIComponent(value)};path=/;expires=${date.toUTCString()}`;
+    };
+
+    // Функция для получения cookie
+
+
+    const getCookie = (name) => {
+      const matches = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+      return matches ? decodeURIComponent(matches[1]) : null;
+    };
+
+    // Функция для проверки, был ли номер использован
+
+    const isPhoneUsed = (phone) => {
+      const storedPhones = getCookie(cookieName);
+      if (!storedPhones) return false;
+      return JSON.parse(storedPhones).includes(phone);
+    };
+
+    // Блокировка удаления кода страны и ограничение ввода
+
+    // inputPhone.addEventListener("input", (e) => {
+    //   if (!e.target.value.startsWith(countryCode)) {
+    //     e.target.value = countryCode;
+    //   }
+
+    //   // Ограничение длины номера
+
+    //   const phoneDigits = e.target.value.slice(countryCode.length).replace(/\D/g, ""); // Только цифры после кода
+    //   if (phoneDigits.length > maxDigits) {
+    //     e.target.value = countryCode + phoneDigits.slice(0, maxDigits); // Обрезаем лишние цифры
+    //   }
+
+    //   validatePhone();
+    // });
+
+    // Валидация номера телефона
+
+    // const validatePhone = () => {
+    //   const phoneNumber = inputPhone.value;
+    //   const validPhone = new RegExp(`^\\${countryCode}[0-9]{10}$`); //{10}-длина номера после кода 
+    //   if (validPhone.test(phoneNumber)) {
+    //     inputPhone.style.border = "2px solid green";
+    //     submitBtn.disabled = false;
+    //   } else {
+    //     inputPhone.style.border = "2px solid red";
+    //     submitBtn.disabled = true;
+    //   }
+    // };
+
+    // Проверка номера перед отправкой формы
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault(); // Останавливаем отправку формы для проверки
+      const phoneNumber = inputPhone.value;
+
+      if (isPhoneUsed(phoneNumber)) {
+        // Сообщение об ошибке, если номер уже использовался
+        alert("¡Ya has presentado tu solicitud, por favor espera la llamada de nuestro operador!");
+        return;
+      }
+
+    //   const validPhone = new RegExp(`^\\${countryCode}[0-9]{10}$`);  //{10}-длина номера после кода 
+
+    //   if (validPhone.test(phoneNumber)) {
+       
+    //     // Сохраняем номер в cookie
+    //     const storedPhones = getCookie(cookieName) || "[]";
+    //     const phonesArray = JSON.parse(storedPhones);
+    //     phonesArray.push(phoneNumber);
+    //     setCookie(cookieName, JSON.stringify(phonesArray), 7); // Храним номер 7 дней
+
+    //     // Отправляем форму
+
+    //     form.submit();
+    //   } else {
+    //     alert("Por favor, ingrese un número de teléfono válido.");
+    //   }
+      form.submit();
+    });
+
+
+    // Установка кода страны при загрузке страницы
+
+    // inputPhone.value = countryCode;
+    // validatePhone();
+  });
+  
+  document.getElementById("phone2").addEventListener("input", function () {
+    // Разрешаем только цифры и знак "+"
+    this.value = this.value.replace(/[^0-9+]/g, '');
+
+    // Разрешаем только один "+" и только в начале
+    if (this.value.indexOf('+') > 0) {
+        this.value = this.value.replace(/\+/g, '');
+    }
+});
+</script>
+<script>
+  window.addEventListener("load", function () {
+    if (typeof window.clarity === "function") {
+      window.clarity("event", "winner_v1_1_view");
+    }
+  });
+</script>
+		
+		
+		
+
+
+</body></html>
