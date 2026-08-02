@@ -770,6 +770,24 @@ if(event){
     }
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!/\.vercel\.app$/.test(window.location.hostname)) {
+      return;
+    }
+
+    var form = document.getElementById("form");
+    if (!form) {
+      return;
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.href = "success.html";
+    }, true);
+  });
+</script>
 		
 		
 		
