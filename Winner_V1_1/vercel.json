@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/lemon.php",
+      "destination": "/success.html"
+    },
+    {
+      "source": "/success.php",
+      "destination": "/success.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/index.php",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/success.php",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}
